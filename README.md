@@ -1,8 +1,8 @@
 # RealEstate-API
 
-Simple real estate registry for buildings
+### Simple real estate registry for buildings
 
-It provides City, street, number, owner, size, market value, property type, tax and taxValue (which is calculated automaticly)
+> It provides City, street, number, owner, size, market value, property type, tax and taxValue (which is calculated automaticly)
 
 **** How to create database ****
 
