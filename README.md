@@ -6,7 +6,7 @@
 
 ###### How to create database 
 
-I used postgreSQL and created database through SQL shell psql
+I used ```postgreSQL``` and created database through ```SQL shell psql```
 so you will have to download it to use this database because its an in-memory database in shell just write
 
 ```
@@ -18,8 +18,8 @@ GRANT ALL PRIVILEGES ON DATABASE "realestate" TO postgres;
 ```
 
 First line creates database Second line check role names Third Granting privileges this database to your rolename four you can see created database fith to connect to this database
-after that in application.properties
-you can find it in src -> main -> resources -> application.properties
+after that in ```application.properties```
+you can find it in ```src -> main -> resources -> application.properties```
 check if datasource url is correct and use username your rolename so its will be default postgres and password (same password you logged in SQL shell)
 
 You done!
@@ -27,7 +27,10 @@ You done!
 ###### Using application 
 
 After creating database, install all dependencies if it doesn't installed automaticly
-Right click on pom.xml -> Maven -> Reload Project Wait .. .. .. Wait .. .. .. Done, Good job!
+Right click on 
+```
+pom.xml -> Maven -> Reload
+```
 Launch applcation and after that, go to: 
 ```
 http://localhost:8080/api/v1/realestate
