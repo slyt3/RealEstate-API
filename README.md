@@ -18,11 +18,8 @@ GRANT ALL PRIVILEGES ON DATABASE "realestate" TO postgres;
 ```
 
 First line creates database Second line check role names Third Granting privileges this database to your rolename four you can see created database fith to connect to this database
-
 after that in application.properties
-
 you can find it in src -> main -> resources -> application.properties
-
 check if datasource url is correct and use username your rolename so its will be default postgres and password (same password you logged in SQL shell)
 
 You done!
@@ -31,7 +28,10 @@ You done!
 
 After creating database, install all dependencies if it doesn't installed automaticly
 Right click on pom.xml -> Maven -> Reload Project Wait .. .. .. Wait .. .. .. Done, Good job!
-Launch applcation and after that, go to: http://localhost:8080/api/v1/realestate
+Launch applcation and after that, go to: 
+```
+http://localhost:8080/api/v1/realestate
+```
 you will find 2 data already created
 to send data use Postman, didn't installed swagger UI only documentation.
 
@@ -50,7 +50,7 @@ http://localhost:8080/api/v1/realestate/1
 > 1 - id which you will want to edit
 
 and in params you can say key is city and value is test and send request it should work.
-to post new data choose method POST and go to body, choose raw and JSON
+to post new data choose method ```POST``` and go to ```body```, choose ```raw``` and ```JSON```
 before sending it should contain all of these because there is no default value because all value is needed.
 swagger documentation: 
 
